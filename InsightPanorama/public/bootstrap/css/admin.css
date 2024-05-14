@@ -1,0 +1,22 @@
+.acceptbtn_admin, .rejectbtn_admin {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* border-radius: 20px; */
+}
+
+#unverified_profile_tbl tr, #verified_profile_tbl tr, #unverified_job_tbl tr, #reported_profile_tbl tr {
+  cursor: pointer;
+  transform: all .25s ease-in-out;
+}
+
+#unverified_profile_tbl tr:hover, #verified_profile_tbl tr:hover, #unverified_job_tbl tr:hover {
+  /* background-color: #d4edda; */
+  /* background-color: #f8d7da; */
+}
+
+.selected {
+  /* background: #d4edda; */
+  background-color: #d4edda;
+}

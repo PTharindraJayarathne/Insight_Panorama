@@ -1,0 +1,59 @@
+.notepara {
+    text-align: center;
+}
+.leftholder {
+    background-color: #0062cc;
+}
+
+.regformholder {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.editregform {
+    margin-top: 20px !important;
+    background-color: white;
+    width: 50%;
+    margin:auto;
+}
+
+
+.btnlogin{
+    /* border-radius: 50px; */
+    /* width: 100%; */
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 1%;
+} 
+.btnlogin2 {
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 15px;
+    width: 50%;
+    color: rgb(0, 0, 0);
+    background-color: #f7f7f7;
+
+}
+.btnlogin2:hover {
+    opacity: 0.8;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+  
+}
+
+img {width:100%;}
+
+
+@media screen and (max-width: 760px) {
+
+    .regholder {
+        padding-top: 0px !important;
+    }
+    .btnlogin{
+        /* border-radius: 50px; */
+        width: 100%;
+        /* padding-left: 50px;
+        padding-right: 50px; */
+        /* margin-left: 1%; */
+    } 
+}

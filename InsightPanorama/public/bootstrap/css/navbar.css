@@ -1,0 +1,105 @@
+* {
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+ background-color: #f3f3f3 !important;
+}
+
+.menu-bar {
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.nav-link {
+  font-size: 16px;
+  margin: 20px;
+  color: rgb(0, 14, 92) !important;
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+/* For when a page is active */
+.nav-link_active {
+  border-bottom: 1px solid #0262CC !important;
+  color: #0262CC !important;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid #0262CC ;
+  color: #0262CC !important;
+}
+
+.logoutbtn {
+  font-size: 15px !important;
+  color: white !important;
+  border-radius: 20px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.logoutbtn:hover {
+  color: white !important;
+}
+
+.mobile_logout {
+  display: none;
+}
+
+.websitelogo {
+  width: 200px;
+  margin-left: 10px;
+}
+
+.admin_badge {
+  font-size: 20px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  margin-left: 20px;
+}
+
+
+@media screen and (max-width: 991px) {
+
+  .websitelogo {
+      margin-left: unset;
+  }
+
+  .logoutbtn {
+      display: none !important;
+      /* max-width: 100px !important;
+      margin: auto !important; */
+  }
+  .nav-link:hover {
+      border-bottom: 1px solid rgb(255, 255, 255);
+      color: #0262CC  !important;
+      font-weight: bold;
+  }
+
+  .mobileloginbtn {
+      color: rgb(1, 20, 133) !important;
+  }
+
+  .mobileloginbtn:hover {
+      color: #0262CC  !important;
+  }
+
+  .mobile_logout {
+      display: unset;
+  }
+
+  .mobilelogoutbtn {
+      color: red !important;
+  }
+
+  .mobilelogoutbtn:hover {
+      color: rgb(194, 0, 0) !important;
+  }
+}

@@ -1,0 +1,163 @@
+.ratt {
+
+    /* border: 1px red solid; */
+
+    background-color: white;
+
+
+    display: flex;
+
+    /* padding-left: 20px; */
+
+    align-items: center;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+
+
+    /* margin-top: 20px; */
+
+}
+
+
+
+.flex-container2 {
+
+    align-items: center;
+
+    background-color: white;
+
+    display: flex;
+
+    /* align-items: center; */
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+}
+
+
+
+
+
+
+.jobs_img {
+
+    width: 50px;
+
+    /* margin-top: 50%; */
+
+    /* margin-left: 20px; */
+
+    /* height: 50px; */
+
+    border-radius: 50px;
+
+}
+
+
+
+.jobs_img_container {
+
+    text-align: center;
+
+    background-color: white;
+
+}
+
+
+
+.cat_container {
+
+    border-radius: 2px !important;
+
+    padding-left: 10px !important;
+
+    padding-right: 10px !important;
+
+    padding-top: 8px !important;
+
+    padding-bottom: 8px !important;
+
+    text-align: center;
+
+    /* margin-top: 5px !important;
+
+    margin-bottom: 10px !important; */
+}
+
+.cat_container2 {
+
+    border-radius: 2px !important;
+
+    padding-left: 10px !important;
+
+    padding-right: 10px !important;
+
+    padding-top: 8px !important;
+
+    padding-bottom: 8px !important;
+
+    text-align: center;
+    margin-left: 20px;
+
+    /* margin-top: 5px !important;
+
+    margin-bottom: 10px !important; */
+}
+
+.cat_container small {
+    font-size: 13px;
+
+}
+
+
+.span_img {
+    
+    margin-right: 2px;
+
+    width: 10px;
+
+}
+
+.span_img2 {
+
+    margin-right: 8px;
+
+    width: 13px;
+
+}
+
+
+
+.flex-container2 div {
+
+    /* margin-right: 20px; */
+
+}
+
+
+
+.job_option_holder {
+    /* border: 1px red solid; */
+    display: flex;
+    margin-right: 40px !important;
+
+    flex-direction: column;
+
+    /* margin-top: 20%; */
+
+}
+
+.img_and_element_holder {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.company_name {
+    color: #5f5f5f;
+}

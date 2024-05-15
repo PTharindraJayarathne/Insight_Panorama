@@ -1,0 +1,12 @@
+ERROR - 2021-12-19 02:31:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '://localhost:8080/cvfiles/43' at line 2
+CRITICAL - 2021-12-19 02:31:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '://localhost:8080/cvfiles/43' at line 2
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT reported...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT reported...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT reported...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/AdminApplicantProfiles.php(53): CodeIgniter\Database\BaseConnection->query('SELECT reported...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\AdminApplicantProfiles->GetAllReports()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApplicantProfiles))
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#9 {main}

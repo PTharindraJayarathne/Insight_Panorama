@@ -1,0 +1,122 @@
+ERROR - 2021-11-20 02:31:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's St, London',
+                                          email = 'sherlock@g...' at line 3
+CRITICAL - 2021-11-20 02:31:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's St, London',
+                                          email = 'sherlock@g...' at line 3
+#0 C:\xampp\htdocs\futureseekerslk\system\Database\MySQLi\Connection.php(329): mysqli->query('Update job_seek...')
+#1 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('Update job_seek...')
+#2 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('Update job_seek...')
+#3 C:\xampp\htdocs\futureseekerslk\system\BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('Update job_seek...')
+#4 C:\xampp\htdocs\futureseekerslk\system\Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 C:\xampp\htdocs\futureseekerslk\app\Controllers\MyProfileApplicant.php(118): CodeIgniter\Model->__call('query', Array)
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\MyProfileApplicant->editProfile()
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyProfileApplicant))
+#8 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-20 02:38:15 --> No file was uploaded.(4)
+#0 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\MyProfileEmployer->editProfile()
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyProfileEmployer))
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-11-20 02:38:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(785) 414-6764,
+                                          jobPosition = 'Sen...' at line 3
+CRITICAL - 2021-11-20 02:38:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(785) 414-6764,
+                                          jobPosition = 'Sen...' at line 3
+#0 C:\xampp\htdocs\futureseekerslk\system\Database\MySQLi\Connection.php(329): mysqli->query('Update employer...')
+#1 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('Update employer...')
+#2 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('Update employer...')
+#3 C:\xampp\htdocs\futureseekerslk\system\BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('Update employer...')
+#4 C:\xampp\htdocs\futureseekerslk\system\Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 C:\xampp\htdocs\futureseekerslk\app\Controllers\MyProfileEmployer.php(154): CodeIgniter\Model->__call('query', Array)
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\MyProfileEmployer->editProfile()
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyProfileEmployer))
+#8 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-20 02:39:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(785) 414-6764,
+                                          jobPosition = 'Sen...' at line 3
+CRITICAL - 2021-11-20 02:39:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(785) 414-6764,
+                                          jobPosition = 'Sen...' at line 3
+#0 C:\xampp\htdocs\futureseekerslk\system\Database\MySQLi\Connection.php(329): mysqli->query('Update employer...')
+#1 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('Update employer...')
+#2 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('Update employer...')
+#3 C:\xampp\htdocs\futureseekerslk\system\BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('Update employer...')
+#4 C:\xampp\htdocs\futureseekerslk\system\Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 C:\xampp\htdocs\futureseekerslk\app\Controllers\MyProfileEmployer.php(154): CodeIgniter\Model->__call('query', Array)
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\MyProfileEmployer->editProfile()
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyProfileEmployer))
+#8 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-20 02:40:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(785) 414-6764,
+                                          jobPosition = 'Sen...' at line 3
+CRITICAL - 2021-11-20 02:40:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(785) 414-6764,
+                                          jobPosition = 'Sen...' at line 3
+#0 C:\xampp\htdocs\futureseekerslk\system\Database\MySQLi\Connection.php(329): mysqli->query('Update employer...')
+#1 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('Update employer...')
+#2 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('Update employer...')
+#3 C:\xampp\htdocs\futureseekerslk\system\BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('Update employer...')
+#4 C:\xampp\htdocs\futureseekerslk\system\Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 C:\xampp\htdocs\futureseekerslk\app\Controllers\MyProfileEmployer.php(154): CodeIgniter\Model->__call('query', Array)
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\MyProfileEmployer->editProfile()
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyProfileEmployer))
+#8 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-20 02:40:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(785) 414-6764,
+                                          jobPosition = 'Sen...' at line 3
+CRITICAL - 2021-11-20 02:40:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(785) 414-6764,
+                                          jobPosition = 'Sen...' at line 3
+#0 C:\xampp\htdocs\futureseekerslk\system\Database\MySQLi\Connection.php(329): mysqli->query('Update employer...')
+#1 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('Update employer...')
+#2 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('Update employer...')
+#3 C:\xampp\htdocs\futureseekerslk\system\BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('Update employer...')
+#4 C:\xampp\htdocs\futureseekerslk\system\Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 C:\xampp\htdocs\futureseekerslk\app\Controllers\MyProfileEmployer.php(154): CodeIgniter\Model->__call('query', Array)
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\MyProfileEmployer->editProfile()
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyProfileEmployer))
+#8 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-20 02:43:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(199) 748-9906,
+                                          jobPosition = 'Sen...' at line 3
+CRITICAL - 2021-11-20 02:43:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(199) 748-9906,
+                                          jobPosition = 'Sen...' at line 3
+#0 C:\xampp\htdocs\futureseekerslk\system\Database\MySQLi\Connection.php(329): mysqli->query('Update employer...')
+#1 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('Update employer...')
+#2 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('Update employer...')
+#3 C:\xampp\htdocs\futureseekerslk\system\BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('Update employer...')
+#4 C:\xampp\htdocs\futureseekerslk\system\Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 C:\xampp\htdocs\futureseekerslk\app\Controllers\MyProfileEmployer.php(154): CodeIgniter\Model->__call('query', Array)
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\MyProfileEmployer->editProfile()
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyProfileEmployer))
+#8 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-11-20 02:48:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(227) 176-2488,
+                                          jobPosition = 'Ass...' at line 3
+CRITICAL - 2021-11-20 02:48:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(227) 176-2488,
+                                          jobPosition = 'Ass...' at line 3
+#0 C:\xampp\htdocs\futureseekerslk\system\Database\MySQLi\Connection.php(329): mysqli->query('Update employer...')
+#1 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('Update employer...')
+#2 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('Update employer...')
+#3 C:\xampp\htdocs\futureseekerslk\system\BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('Update employer...')
+#4 C:\xampp\htdocs\futureseekerslk\system\Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 C:\xampp\htdocs\futureseekerslk\app\Controllers\MyProfileEmployer.php(154): CodeIgniter\Model->__call('query', Array)
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\MyProfileEmployer->editProfile()
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyProfileEmployer))
+#8 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-20 03:11:36 --> unlink(C:\xampp\htdocs\futureseekerslk\writable\debugbar/debugbar_1637399304.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 78)
+#1 C:\xampp\htdocs\futureseekerslk\system\Debug\Toolbar\Collectors\History.php(78): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\Debug\Toolbar.php(480): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1637399494, 20)
+#3 C:\xampp\htdocs\futureseekerslk\system\Debug\Toolbar.php(452): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\futureseekerslk\app\Config\Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\futureseekerslk\system\Events\Events.php(166): call_user_func(Object(Closure))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(316): CodeIgniter\Events\Events::trigger('pre_system')
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

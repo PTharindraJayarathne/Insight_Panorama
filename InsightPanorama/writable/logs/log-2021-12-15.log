@@ -1,0 +1,126 @@
+ERROR - 2021-12-15 03:31:28 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-12-15 03:31:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('Select id from ...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Views/LandingPage/index.php(144): CodeIgniter\Model->__call('query', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(230): include('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Common.php(1271): CodeIgniter\View\View->render('LandingPage/ind...', Array, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/LandingPage.php(16): view('LandingPage/ind...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\LandingPage->index()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LandingPage))
+#10 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#13 {main}
+CRITICAL - 2021-12-15 05:51:21 --> Undefined variable $job_seeker_id
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Views/EmployerViewApplicants/index.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/X...', 198)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(230): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Common.php(1271): CodeIgniter\View\View->render('EmployerViewApp...', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyJobsEmployer.php(27): view('EmployerViewApp...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyJobsEmployer->showapplicants('129')
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyJobsEmployer))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+CRITICAL - 2021-12-15 19:45:48 --> Undefined property: stdClass::$is_scheduled
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Views/EmployerViewApplicants/index.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 116)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(230): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Common.php(1271): CodeIgniter\View\View->render('EmployerViewApp...', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyJobsEmployer.php(30): view('EmployerViewApp...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyJobsEmployer->showapplicants('122')
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyJobsEmployer))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+CRITICAL - 2021-12-15 20:07:48 --> syntax error, unexpected token ";"
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Common.php(1271): CodeIgniter\View\View->render('EmployerViewApp...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyJobsEmployer.php(30): view('EmployerViewApp...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyJobsEmployer->showapplicants('122')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyJobsEmployer))
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2021-12-15 20:07:49 --> syntax error, unexpected token ";"
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Common.php(1271): CodeIgniter\View\View->render('EmployerViewApp...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyJobsEmployer.php(30): view('EmployerViewApp...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyJobsEmployer->showapplicants('122')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyJobsEmployer))
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2021-12-15 20:09:53 --> syntax error, unexpected token ";"
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Common.php(1271): CodeIgniter\View\View->render('EmployerViewApp...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyJobsEmployer.php(30): view('EmployerViewApp...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyJobsEmployer->showapplicants('122')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyJobsEmployer))
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#8 {main}
+ERROR - 2021-12-15 21:14:06 --> Table 'futureseekerslk.jobdetails_jobseeker' doesn't exist
+CRITICAL - 2021-12-15 21:14:06 --> Table 'futureseekerslk.jobdetails_jobseeker' doesn't exist
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('Update jobdetai...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('Update jobdetai...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('Update jobdetai...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('Update jobdetai...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyJobsEmployer.php(78): CodeIgniter\Model->__call('query', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyJobsEmployer->scheduleInterview()
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyJobsEmployer))
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#11 {main}
+ERROR - 2021-12-15 21:15:58 --> Table 'futureseekerslk.jobdetails_jobseeker' doesn't exist
+CRITICAL - 2021-12-15 21:15:58 --> Table 'futureseekerslk.jobdetails_jobseeker' doesn't exist
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('Update jobdetai...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('Update jobdetai...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('Update jobdetai...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('Update jobdetai...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyJobsEmployer.php(75): CodeIgniter\Model->__call('query', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyJobsEmployer->scheduleInterview()
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyJobsEmployer))
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2021-12-15 22:10:42 --> Attempt to read property "applicant_name" on array
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyJobsEmployer.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/X...', 96)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyJobsEmployer.php(88): App\Controllers\MyJobsEmployer->SendEmailToApplicant(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyJobsEmployer->scheduleInterview()
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyJobsEmployer))
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#7 {main}
+CRITICAL - 2021-12-15 22:11:39 --> Attempt to read property "applicant_name" on array
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyJobsEmployer.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/X...', 96)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyJobsEmployer.php(88): App\Controllers\MyJobsEmployer->SendEmailToApplicant(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyJobsEmployer->scheduleInterview()
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyJobsEmployer))
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#7 {main}
+CRITICAL - 2021-12-15 22:13:42 --> Attempt to read property "applicant_name" on array
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyJobsEmployer.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/Applications/X...', 96)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyJobsEmployer.php(88): App\Controllers\MyJobsEmployer->SendEmailToApplicant(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyJobsEmployer->scheduleInterview()
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyJobsEmployer))
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#7 {main}

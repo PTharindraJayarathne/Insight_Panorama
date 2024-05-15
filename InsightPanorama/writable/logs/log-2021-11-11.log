@@ -1,0 +1,601 @@
+CRITICAL - 2021-11-11 00:06:56 --> Attempt to read property "username" on array
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminHome\index.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminHome/index', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminHome.php(7): view('AdminHome/index')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminHome->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 00:10:52 --> Attempt to read property "username" on array
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminHome\index.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminHome/index', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminHome.php(7): view('AdminHome/index')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminHome->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 00:15:22 --> Attempt to read property "username" on array
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminHome\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminHome/index', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminHome.php(7): view('AdminHome/index')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminHome->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 00:15:23 --> Attempt to read property "username" on array
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminHome\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminHome/index', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminHome.php(7): view('AdminHome/index')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminHome->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 00:15:33 --> Attempt to read property "username" on array
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminHome\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminHome/index', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminHome.php(7): view('AdminHome/index')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminHome->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 00:15:33 --> Attempt to read property "username" on array
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminHome\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminHome/index', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminHome.php(7): view('AdminHome/index')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminHome->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 00:15:33 --> Attempt to read property "username" on array
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminHome\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminHome/index', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminHome.php(7): view('AdminHome/index')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminHome->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 00:15:33 --> Attempt to read property "username" on array
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminHome\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminHome/index', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminHome.php(7): view('AdminHome/index')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminHome->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 00:15:34 --> Attempt to read property "username" on array
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminHome\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminHome/index', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminHome.php(7): view('AdminHome/index')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminHome->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 00:15:34 --> Attempt to read property "username" on array
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminHome\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminHome/index', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminHome.php(7): view('AdminHome/index')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminHome->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 00:15:34 --> Attempt to read property "username" on array
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminHome\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminHome/index', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminHome.php(7): view('AdminHome/index')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminHome->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 00:15:36 --> Attempt to read property "username" on array
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminHome\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminHome/index', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminHome.php(7): view('AdminHome/index')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminHome->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 00:15:38 --> Attempt to read property "username" on array
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminHome\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminHome/index', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminHome.php(7): view('AdminHome/index')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminHome->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 00:15:38 --> Attempt to read property "username" on array
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminHome\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminHome/index', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminHome.php(7): view('AdminHome/index')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminHome->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 00:15:38 --> Attempt to read property "username" on array
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminHome\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminHome/index', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminHome.php(7): view('AdminHome/index')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminHome->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 00:15:38 --> Attempt to read property "username" on array
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminHome\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminHome/index', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminHome.php(7): view('AdminHome/index')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminHome->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 00:15:38 --> Attempt to read property "username" on array
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminHome\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminHome/index', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminHome.php(7): view('AdminHome/index')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminHome->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 00:15:39 --> Attempt to read property "username" on array
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminHome\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminHome/index', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminHome.php(7): view('AdminHome/index')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminHome->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 00:15:39 --> Attempt to read property "username" on array
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminHome\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminHome/index', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminHome.php(7): view('AdminHome/index')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminHome->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 00:15:39 --> Attempt to read property "username" on array
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminHome\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminHome/index', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminHome.php(7): view('AdminHome/index')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminHome->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 00:16:52 --> Array to string conversion
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminHome\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminHome/index', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminHome.php(7): view('AdminHome/index')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminHome->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 00:17:44 --> Array to string conversion
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminHome\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminHome/index', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminHome.php(7): view('AdminHome/index')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminHome->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 00:18:16 --> Undefined array key "username"
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminHome\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminHome/index', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminHome.php(7): view('AdminHome/index')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminHome->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 00:18:17 --> Undefined array key "username"
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminHome\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminHome/index', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminHome.php(7): view('AdminHome/index')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminHome->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 00:19:21 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminHome/index', Array, true)
+#3 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminHome.php(7): view('AdminHome/index')
+#4 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminHome->index()
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-11 00:19:22 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminHome/index', Array, true)
+#3 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminHome.php(7): view('AdminHome/index')
+#4 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminHome->index()
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-11-11 02:20:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' status = 0' at line 1
+CRITICAL - 2021-11-11 02:20:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' status = 0' at line 1
+#0 C:\xampp\htdocs\futureseekerslk\system\Database\MySQLi\Connection.php(329): mysqli->query('Select * from u...')
+#1 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('Select * from u...')
+#2 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('Select * from u...')
+#3 C:\xampp\htdocs\futureseekerslk\system\BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('Select * from u...')
+#4 C:\xampp\htdocs\futureseekerslk\system\Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 C:\xampp\htdocs\futureseekerslk\app\Views\AdminHome\index.php(37): CodeIgniter\Model->__call('query', Array)
+#6 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminHome/index', Array, true)
+#9 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminHome.php(7): view('AdminHome/index')
+#10 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminHome->index()
+#11 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#12 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-11-11 02:33:35 --> Undefined property: CodeIgniter\View\View::$db
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminHome\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminHome/index', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminHome.php(7): view('AdminHome/index')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminHome->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 02:43:41 --> Undefined property: CodeIgniter\View\View::$db
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminHome\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminHome/index', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminHome.php(7): view('AdminHome/index')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminHome->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 02:43:42 --> Undefined property: CodeIgniter\View\View::$db
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminHome\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminHome/index', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminHome.php(7): view('AdminHome/index')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminHome->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 06:35:06 --> mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminEmployerProfiles\index.php(36): mysqli_fetch_assoc(false)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminEmployerPr...', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminEmployerProfiles.php(7): view('AdminEmployerPr...')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminEmployerProfiles->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmployerProfiles))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 07:22:02 --> Undefined variable $comapanyid
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminEmployerProfiles\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminEmployerPr...', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminEmployerProfiles.php(7): view('AdminEmployerPr...')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminEmployerProfiles->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmployerProfiles))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 07:22:45 --> Undefined variable $useraccountidand
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminEmployerProfiles\index.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminEmployerPr...', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminEmployerProfiles.php(7): view('AdminEmployerPr...')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminEmployerProfiles->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmployerProfiles))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 09:12:12 --> Undefined array key "verify"
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminApplicantProfiles\index.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminApplicantP...', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminApplicantProfiles.php(7): view('AdminApplicantP...')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminApplicantProfiles->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApplicantProfiles))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 09:12:13 --> Undefined array key "verify"
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminApplicantProfiles\index.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminApplicantP...', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminApplicantProfiles.php(7): view('AdminApplicantP...')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminApplicantProfiles->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApplicantProfiles))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 09:50:28 --> Cannot use object of type App\Models\userAccountModel as array
+#0 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminApplicantProfiles->verify()
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApplicantProfiles))
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-11 09:56:18 --> Cannot use object of type App\Models\userAccountModel as array
+#0 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminApplicantProfiles->verify()
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApplicantProfiles))
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-11 09:56:19 --> Cannot use object of type App\Models\userAccountModel as array
+#0 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminApplicantProfiles->verify()
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApplicantProfiles))
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-11 09:56:19 --> Cannot use object of type App\Models\userAccountModel as array
+#0 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminApplicantProfiles->verify()
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApplicantProfiles))
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-11 09:56:19 --> Cannot use object of type App\Models\userAccountModel as array
+#0 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminApplicantProfiles->verify()
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApplicantProfiles))
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-11 09:56:19 --> Cannot use object of type App\Models\userAccountModel as array
+#0 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminApplicantProfiles->verify()
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApplicantProfiles))
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-11 09:56:19 --> Cannot use object of type App\Models\userAccountModel as array
+#0 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminApplicantProfiles->verify()
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApplicantProfiles))
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-11 09:56:19 --> Cannot use object of type App\Models\userAccountModel as array
+#0 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminApplicantProfiles->verify()
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApplicantProfiles))
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-11 09:56:20 --> Cannot use object of type App\Models\userAccountModel as array
+#0 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminApplicantProfiles->verify()
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApplicantProfiles))
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-11 09:56:20 --> Cannot use object of type App\Models\userAccountModel as array
+#0 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminApplicantProfiles->verify()
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApplicantProfiles))
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-11 20:33:56 --> Cannot use object of type App\Models\userAccountModel as array
+#0 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminApplicantProfiles->verify()
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApplicantProfiles))
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-11 20:38:08 --> Object of class App\Models\userAccountModel could not be converted to string
+#0 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminApplicantProfiles->verify()
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApplicantProfiles))
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-11 20:43:22 --> Object of class App\Models\userAccountModel could not be converted to string
+#0 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminApplicantProfiles->verify()
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApplicantProfiles))
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-11 20:45:27 --> Object of class App\Models\userAccountModel could not be converted to string
+#0 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminApplicantProfiles->verify()
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApplicantProfiles))
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-11 20:50:04 --> Undefined property: App\Controllers\AdminApplicantProfiles::$db
+#0 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminApplicantProfiles.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminApplicantProfiles->verify()
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApplicantProfiles))
+#3 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-11 20:54:08 --> Undefined property: App\Controllers\AdminApplicantProfiles::$db
+#0 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminApplicantProfiles.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminApplicantProfiles->verify()
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApplicantProfiles))
+#3 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-11 20:55:14 --> Object of class App\Models\userAccountModel could not be converted to string
+#0 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminApplicantProfiles->verify()
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApplicantProfiles))
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-11 20:57:27 --> Object of class App\Models\userAccountModel could not be converted to string
+#0 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminApplicantProfiles->verify()
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApplicantProfiles))
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-11 21:03:49 --> Undefined property: App\Controllers\AdminApplicantProfiles::$db
+#0 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminApplicantProfiles.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminApplicantProfiles->verify()
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApplicantProfiles))
+#3 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-11 21:08:24 --> Object of class App\Models\userAccountModel could not be converted to string
+#0 C:\xampp\htdocs\futureseekerslk\system\Database\Query.php(387): strtr('UPDATE `user_ac...', Array)
+#1 C:\xampp\htdocs\futureseekerslk\system\Database\Query.php(355): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `user_ac...', Array)
+#2 C:\xampp\htdocs\futureseekerslk\system\Database\Query.php(170): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(647): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp\htdocs\futureseekerslk\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#5 C:\xampp\htdocs\futureseekerslk\system\Model.php(326): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\futureseekerslk\system\BaseModel.php(917): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\futureseekerslk\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminApplicantProfiles.php(20): CodeIgniter\Model->update('user_account')
+#9 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminApplicantProfiles->verify()
+#10 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApplicantProfiles))
+#11 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-11-11 21:08:49 --> Object of class App\Models\userAccountModel could not be converted to string
+#0 C:\xampp\htdocs\futureseekerslk\system\Database\Query.php(387): strtr('UPDATE `user_ac...', Array)
+#1 C:\xampp\htdocs\futureseekerslk\system\Database\Query.php(355): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `user_ac...', Array)
+#2 C:\xampp\htdocs\futureseekerslk\system\Database\Query.php(170): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(647): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp\htdocs\futureseekerslk\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#5 C:\xampp\htdocs\futureseekerslk\system\Model.php(326): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\futureseekerslk\system\BaseModel.php(917): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\futureseekerslk\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminApplicantProfiles.php(20): CodeIgniter\Model->update('user_account')
+#9 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminApplicantProfiles->verify()
+#10 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApplicantProfiles))
+#11 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-11-11 21:09:32 --> Object of class App\Models\userAccountModel could not be converted to string
+#0 C:\xampp\htdocs\futureseekerslk\system\Database\Query.php(387): strtr('UPDATE `user_ac...', Array)
+#1 C:\xampp\htdocs\futureseekerslk\system\Database\Query.php(355): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `user_ac...', Array)
+#2 C:\xampp\htdocs\futureseekerslk\system\Database\Query.php(170): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(647): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp\htdocs\futureseekerslk\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `user_ac...', Array, false)
+#5 C:\xampp\htdocs\futureseekerslk\system\Model.php(326): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\xampp\htdocs\futureseekerslk\system\BaseModel.php(917): CodeIgniter\Model->doUpdate(Array, Array)
+#7 C:\xampp\htdocs\futureseekerslk\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#8 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminApplicantProfiles.php(20): CodeIgniter\Model->update('user_account')
+#9 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminApplicantProfiles->verify()
+#10 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApplicantProfiles))
+#11 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-11-11 22:07:38 --> Object of class App\Models\userAccountModel could not be converted to string
+#0 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminApplicantProfiles->verify()
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApplicantProfiles))
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-11 22:58:40 --> Undefined array key "user_account_id"
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminApplicantProfiles\index.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminApplicantP...', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminApplicantProfiles.php(9): view('AdminApplicantP...')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminApplicantProfiles->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApplicantProfiles))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 22:59:29 --> Undefined array key "t2.id"
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminApplicantProfiles\index.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminApplicantP...', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminApplicantProfiles.php(9): view('AdminApplicantP...')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminApplicantProfiles->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApplicantProfiles))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 22:59:33 --> Undefined array key "t2.id"
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminApplicantProfiles\index.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminApplicantP...', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminApplicantProfiles.php(9): view('AdminApplicantP...')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminApplicantProfiles->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApplicantProfiles))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-11 23:01:11 --> Undefined array key "id"
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminApplicantProfiles\index.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminApplicantP...', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminApplicantProfiles.php(9): view('AdminApplicantP...')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminApplicantProfiles->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminApplicantProfiles))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

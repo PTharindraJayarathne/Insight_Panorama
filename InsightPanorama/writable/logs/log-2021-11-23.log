@@ -1,0 +1,29 @@
+CRITICAL - 2021-11-23 07:44:28 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\futureseekerslk\app\Controllers\Home.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 77)
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\Home->login()
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-23 09:59:10 --> Undefined variable $name
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\PostAdvertEmployer\index.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 83)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('PostAdvertEmplo...', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\PostAdvertEmployer.php(15): view('PostAdvertEmplo...')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\PostAdvertEmployer->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostAdvertEmployer))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-23 22:19:42 --> Undefined variable $name
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\PostAdvertEmployer\index.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 86)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('PostAdvertEmplo...', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\PostAdvertEmployer.php(15): view('PostAdvertEmplo...')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\PostAdvertEmployer->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostAdvertEmployer))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,296 @@
+ERROR - 2021-12-02 00:35:53 --> Duplicate entry '17-15' for key 'PRIMARY'
+CRITICAL - 2021-12-02 00:35:53 --> Duplicate entry '17-15' for key 'PRIMARY'
+#0 C:\xampp\htdocs\futureseekerslk\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `jo...')
+#1 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `jo...')
+#2 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `jo...')
+#3 C:\xampp\htdocs\futureseekerslk\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `jo...', Array, false)
+#4 C:\xampp\htdocs\futureseekerslk\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\futureseekerslk\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\futureseekerslk\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplyForJob.php(43): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplyForJob->index('15')
+#9 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplyForJob))
+#10 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-12-02 00:52:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'BEGIN
+        INSERT INTO jobseeker_jobdeatils ('job_seeker_id','job_details...' at line 2
+CRITICAL - 2021-12-02 00:52:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'BEGIN
+        INSERT INTO jobseeker_jobdeatils ('job_seeker_id','job_details...' at line 2
+#0 C:\xampp\htdocs\futureseekerslk\system\Database\MySQLi\Connection.php(329): mysqli->query('IF NOT EXISTS (...')
+#1 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('IF NOT EXISTS (...')
+#2 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('IF NOT EXISTS (...')
+#3 C:\xampp\htdocs\futureseekerslk\system\BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('IF NOT EXISTS (...')
+#4 C:\xampp\htdocs\futureseekerslk\system\Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplyForJob.php(36): CodeIgniter\Model->__call('query', Array)
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplyForJob->index('15')
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplyForJob))
+#8 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-02 00:53:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'BEGIN
+        INSERT INTO jobseeker_jobdeatils ('job_seeker_id','job_details...' at line 2
+CRITICAL - 2021-12-02 00:53:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'BEGIN
+        INSERT INTO jobseeker_jobdeatils ('job_seeker_id','job_details...' at line 2
+#0 C:\xampp\htdocs\futureseekerslk\system\Database\MySQLi\Connection.php(329): mysqli->query('IF NOT EXISTS (...')
+#1 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('IF NOT EXISTS (...')
+#2 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('IF NOT EXISTS (...')
+#3 C:\xampp\htdocs\futureseekerslk\system\BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('IF NOT EXISTS (...')
+#4 C:\xampp\htdocs\futureseekerslk\system\Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplyForJob.php(36): CodeIgniter\Model->__call('query', Array)
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplyForJob->index('15')
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplyForJob))
+#8 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-02 00:54:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'BEGIN
+        INSERT INTO jobseeker_jobdetails ('job_seeker_id','job_details...' at line 2
+CRITICAL - 2021-12-02 00:54:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'BEGIN
+        INSERT INTO jobseeker_jobdetails ('job_seeker_id','job_details...' at line 2
+#0 C:\xampp\htdocs\futureseekerslk\system\Database\MySQLi\Connection.php(329): mysqli->query('IF NOT EXISTS (...')
+#1 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('IF NOT EXISTS (...')
+#2 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('IF NOT EXISTS (...')
+#3 C:\xampp\htdocs\futureseekerslk\system\BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('IF NOT EXISTS (...')
+#4 C:\xampp\htdocs\futureseekerslk\system\Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplyForJob.php(36): CodeIgniter\Model->__call('query', Array)
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplyForJob->index('15')
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplyForJob))
+#8 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-02 00:55:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'BEGIN
+        INSERT INTO jobseeker_jobdetails ('job_seeker_id','job_details...' at line 2
+CRITICAL - 2021-12-02 00:55:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'BEGIN
+        INSERT INTO jobseeker_jobdetails ('job_seeker_id','job_details...' at line 2
+#0 C:\xampp\htdocs\futureseekerslk\system\Database\MySQLi\Connection.php(329): mysqli->query('IF NOT EXISTS (...')
+#1 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('IF NOT EXISTS (...')
+#2 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('IF NOT EXISTS (...')
+#3 C:\xampp\htdocs\futureseekerslk\system\BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('IF NOT EXISTS (...')
+#4 C:\xampp\htdocs\futureseekerslk\system\Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplyForJob.php(36): CodeIgniter\Model->__call('query', Array)
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplyForJob->index('15')
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplyForJob))
+#8 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-02 01:02:18 --> Table 'futureseekerslk.jobseeker_jobdeatils' doesn't exist
+CRITICAL - 2021-12-02 01:02:18 --> Table 'futureseekerslk.jobseeker_jobdeatils' doesn't exist
+#0 C:\xampp\htdocs\futureseekerslk\system\Database\MySQLi\Connection.php(329): mysqli->query('Select 1 from j...')
+#1 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('Select 1 from j...')
+#2 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('Select 1 from j...')
+#3 C:\xampp\htdocs\futureseekerslk\system\BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('Select 1 from j...')
+#4 C:\xampp\htdocs\futureseekerslk\system\Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplyForJob.php(44): CodeIgniter\Model->__call('query', Array)
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplyForJob->index('15')
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplyForJob))
+#8 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-02 01:02:46 --> Undefined variable $queryEmp
+#0 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplyForJob.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplyForJob->index('15')
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplyForJob))
+#3 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 01:20:09 --> Undefined property: stdClass::$id
+#0 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplyForJob.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplyForJob->index('14')
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplyForJob))
+#3 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 01:20:29 --> Undefined property: stdClass::$id
+#0 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplyForJob.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplyForJob->index('15')
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplyForJob))
+#3 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 01:20:58 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplyForJob->index('14')
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplyForJob))
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-02 01:23:41 --> Undefined variable $jobseekerde_id
+#0 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplyForJob.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplyForJob->index('15')
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplyForJob))
+#3 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 01:24:58 --> Undefined variable $jobdetailsid
+#0 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplyForJob.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplyForJob->index('14')
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplyForJob))
+#3 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 01:33:53 --> mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, CodeIgniter\Database\MySQLi\Result given
+#0 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplyForJob.php(49): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplyForJob->index('15')
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplyForJob))
+#3 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 01:36:34 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to int
+#0 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplyForJob.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplyForJob->index('15')
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplyForJob))
+#3 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 01:42:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+#0 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplyForJob->index('15')
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplyForJob))
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-02 01:50:27 --> mysqli_affected_rows(): Argument #1 ($mysql) must be of type mysqli, CodeIgniter\Database\MySQLi\Result given
+#0 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplyForJob.php(48): mysqli_affected_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplyForJob->index('15')
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplyForJob))
+#3 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 01:51:20 --> Call to undefined method App\Models\jobSeekerJobDetailsModel::mysqli_query
+#0 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplyForJob.php(47): CodeIgniter\Model->__call('mysqli_query', Array)
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplyForJob->index('15')
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplyForJob))
+#3 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 01:54:41 --> mysqli_affected_rows(): Argument #1 ($mysql) must be of type mysqli, CodeIgniter\Database\MySQLi\Result given
+#0 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplyForJob.php(48): mysqli_affected_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplyForJob->index('15')
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplyForJob))
+#3 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 02:55:54 --> readfile(adverts/1637822161_b6a15cb0e8155703571f.pdf): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(advert...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplicantHome.php(40): readfile('adverts/1637822...')
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplicantHome->downloadPdf('1637822161_b6a1...')
+#3 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#4 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-02 02:55:54 --> Uncaught ErrorException: Cannot modify header information - headers already sent in C:\xampp\htdocs\futureseekerslk\system\Debug\Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 137)
+#1 C:\xampp\htdocs\futureseekerslk\system\Debug\Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-02 05:12:01 --> Undefined property: stdClass::$email
+#0 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplyForJob.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplyForJob->index('14')
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplyForJob))
+#3 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 05:13:18 --> Undefined property: stdClass::$email
+#0 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplyForJob.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplyForJob->index('8')
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplyForJob))
+#3 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 05:13:26 --> Undefined property: stdClass::$email
+#0 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplyForJob.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplyForJob->index('8')
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplyForJob))
+#3 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-02 05:15:45 --> Unknown column 'employer_id' in 'where clause'
+CRITICAL - 2021-12-02 05:15:45 --> Unknown column 'employer_id' in 'where clause'
+#0 C:\xampp\htdocs\futureseekerslk\system\Database\MySQLi\Connection.php(329): mysqli->query('Select * from e...')
+#1 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('Select * from e...')
+#2 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('Select * from e...')
+#3 C:\xampp\htdocs\futureseekerslk\system\BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('Select * from e...')
+#4 C:\xampp\htdocs\futureseekerslk\system\Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplyForJob.php(37): CodeIgniter\Model->__call('query', Array)
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplyForJob->index('8')
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplyForJob))
+#8 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-12-02 05:16:27 --> Unknown column 'employer_id' in 'where clause'
+CRITICAL - 2021-12-02 05:16:27 --> Unknown column 'employer_id' in 'where clause'
+#0 C:\xampp\htdocs\futureseekerslk\system\Database\MySQLi\Connection.php(329): mysqli->query('Select * from e...')
+#1 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('Select * from e...')
+#2 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('Select * from e...')
+#3 C:\xampp\htdocs\futureseekerslk\system\BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('Select * from e...')
+#4 C:\xampp\htdocs\futureseekerslk\system\Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplyForJob.php(35): CodeIgniter\Model->__call('query', Array)
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplyForJob->index('8')
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplyForJob))
+#8 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-02 08:23:27 --> Undefined property: stdClass::$typeOFEmployment
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\ApplicantHome\index.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('ApplicantHome/i...', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplicantHome.php(26): view('ApplicantHome/i...')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 08:39:08 --> Undefined variable $experience
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\ApplicantHome\index.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 170)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('ApplicantHome/i...', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplicantHome.php(26): view('ApplicantHome/i...')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 09:36:33 --> readfile(adverts/1637853979_c67bbc8edc8c374716a4.pdf): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(advert...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplicantHome.php(40): readfile('adverts/1637853...')
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplicantHome->downloadPdf('1637853979_c67b...')
+#3 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#4 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-02 09:36:33 --> Uncaught ErrorException: Cannot modify header information - headers already sent in C:\xampp\htdocs\futureseekerslk\system\Debug\Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 137)
+#1 C:\xampp\htdocs\futureseekerslk\system\Debug\Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-02 10:08:02 --> No file was uploaded.(4)
+#0 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\MyProfileEmployer->editProfile()
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyProfileEmployer))
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-02 10:10:57 --> No file was uploaded.(4)
+#0 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\MyProfileEmployer->editProfile()
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyProfileEmployer))
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-02 23:56:48 --> Undefined variable $employerId
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminJobPostings\index.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 119)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminJobPosting...', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminJobPostings.php(12): view('AdminJobPosting...')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminJobPostings->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminJobPostings))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,163 @@
+CRITICAL - 2021-11-28 01:59:42 --> Undefined variable $cdate
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\ApplicantHome\index.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 132)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('ApplicantHome/i...', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplicantHome.php(26): view('ApplicantHome/i...')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-28 06:00:20 --> Undefined property: App\Controllers\ApplicantHome::$uri
+#0 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplicantHome.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplicantHome->downloadPdf('1637822161_b6a1...')
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-28 06:02:17 --> Undefined property: App\Controllers\ApplicantHome::$uri
+#0 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplicantHome.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplicantHome->downloadPdf('1637822161_b6a1...')
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-28 06:03:24 --> Undefined property: App\Controllers\ApplicantHome::$uri
+#0 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplicantHome.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplicantHome->downloadPdf('1637822161_b6a1...')
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-28 06:23:49 --> Undefined property: App\Controllers\ApplicantHome::$uri
+#0 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplicantHome.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplicantHome->downloadPdf('1637822161_b6a1...')
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-28 06:25:35 --> Undefined property: App\Controllers\ApplicantHome::$uri
+#0 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplicantHome.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplicantHome->downloadPdf('1637822161_b6a1...')
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-28 06:26:02 --> Undefined property: App\Controllers\ApplicantHome::$uri
+#0 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplicantHome.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplicantHome->downloadPdf('1637822161_b6a1...')
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-28 06:27:18 --> Undefined property: App\Controllers\ApplicantHome::$uri
+#0 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplicantHome.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplicantHome->downloadPdf('1637822161_b6a1...')
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-28 19:08:14 --> unlink(C:\xampp\htdocs\futureseekerslk\writable\debugbar/debugbar_1638102208.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 78)
+#1 C:\xampp\htdocs\futureseekerslk\system\Debug\Toolbar\Collectors\History.php(78): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\Debug\Toolbar.php(480): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1638148076, 20)
+#3 C:\xampp\htdocs\futureseekerslk\system\Debug\Toolbar.php(452): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\futureseekerslk\app\Config\Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#5 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\futureseekerslk\system\Events\Events.php(166): call_user_func(Object(Closure))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(316): CodeIgniter\Events\Events::trigger('pre_system')
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-28 19:35:21 --> readfile(adverts/1637822161_b6a15cb0e8155703571f.pdf): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(advert...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplicantHome.php(40): readfile('adverts/1637822...')
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplicantHome->downloadPdf('1637822161_b6a1...')
+#3 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#4 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-28 19:35:21 --> Uncaught ErrorException: Cannot modify header information - headers already sent in C:\xampp\htdocs\futureseekerslk\system\Debug\Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 137)
+#1 C:\xampp\htdocs\futureseekerslk\system\Debug\Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-28 19:35:56 --> readfile(adverts/1637853979_c67bbc8edc8c374716a4.pdf): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(advert...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplicantHome.php(40): readfile('adverts/1637853...')
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplicantHome->downloadPdf('1637853979_c67b...')
+#3 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#4 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-28 19:35:56 --> Uncaught ErrorException: Cannot modify header information - headers already sent in C:\xampp\htdocs\futureseekerslk\system\Debug\Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 137)
+#1 C:\xampp\htdocs\futureseekerslk\system\Debug\Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-28 19:37:00 --> readfile(adverts/1637853979_c67bbc8edc8c374716a4.pdf): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(advert...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplicantHome.php(40): readfile('adverts/1637853...')
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplicantHome->downloadPdf('1637853979_c67b...')
+#3 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#4 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-28 19:37:00 --> Uncaught ErrorException: Cannot modify header information - headers already sent in C:\xampp\htdocs\futureseekerslk\system\Debug\Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 137)
+#1 C:\xampp\htdocs\futureseekerslk\system\Debug\Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-28 19:37:24 --> readfile(adverts/1637856420_17aee8687a1bb7b31cd9.pdf): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(advert...', 'C:\\xampp\\htdocs...', 61)
+#1 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminJobPostings.php(61): readfile('adverts/1637856...')
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminJobPostings->verify()
+#3 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminJobPostings))
+#4 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-28 19:37:24 --> Uncaught ErrorException: Cannot modify header information - headers already sent in C:\xampp\htdocs\futureseekerslk\system\Debug\Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 137)
+#1 C:\xampp\htdocs\futureseekerslk\system\Debug\Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-28 19:40:11 --> readfile(adverts/1637856420_17aee8687a1bb7b31cd9.pdf): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(advert...', 'C:\\xampp\\htdocs...', 61)
+#1 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminJobPostings.php(61): readfile('adverts/1637856...')
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminJobPostings->verify()
+#3 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminJobPostings))
+#4 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-28 19:40:11 --> Uncaught ErrorException: Cannot modify header information - headers already sent in C:\xampp\htdocs\futureseekerslk\system\Debug\Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp\\htdocs...', 137)
+#1 C:\xampp\htdocs\futureseekerslk\system\Debug\Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-28 20:20:38 --> Only variables should be passed by reference
+#0 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplicantHome.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Only variables ...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplicantHome->downloadPdf('1638150206_20f7...')
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

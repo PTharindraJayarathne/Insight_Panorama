@@ -1,0 +1,286 @@
+ERROR - 2021-12-24 04:55:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.name as ApplicantName
+      from jobseeker_jobdetails
+      join job_seeker on ' at line 4
+CRITICAL - 2021-12-24 04:55:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.name as ApplicantName
+      from jobseeker_jobdetails
+      join job_seeker on ' at line 4
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT Applican...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Applican...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Applican...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/AdminHome.php(109): CodeIgniter\Database\BaseConnection->query('SELECT Applican...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\AdminHome->GenerateTopApplicantsAppliedData()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#9 {main}
+ERROR - 2021-12-24 04:55:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.name as ApplicantName
+      from jobseeker_jobdetails
+      join job_seeker on ' at line 4
+CRITICAL - 2021-12-24 04:55:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.name as ApplicantName
+      from jobseeker_jobdetails
+      join job_seeker on ' at line 4
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT Applican...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Applican...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Applican...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/AdminHome.php(109): CodeIgniter\Database\BaseConnection->query('SELECT Applican...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\AdminHome->GenerateTopApplicantsAppliedData()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#9 {main}
+ERROR - 2021-12-24 04:55:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.name as ApplicantName
+      from jobseeker_jobdetails
+      join job_seeker on ' at line 4
+CRITICAL - 2021-12-24 04:55:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.name as ApplicantName
+      from jobseeker_jobdetails
+      join job_seeker on ' at line 4
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT Applican...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Applican...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Applican...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/AdminHome.php(109): CodeIgniter\Database\BaseConnection->query('SELECT Applican...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\AdminHome->GenerateTopApplicantsAppliedData()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#9 {main}
+ERROR - 2021-12-24 04:56:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.name as ApplicantName
+      from jobseeker_jobdetails
+      join job_seeker on ' at line 4
+CRITICAL - 2021-12-24 04:56:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.name as ApplicantName
+      from jobseeker_jobdetails
+      join job_seeker on ' at line 4
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT Applican...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Applican...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Applican...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/AdminHome.php(109): CodeIgniter\Database\BaseConnection->query('SELECT Applican...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\AdminHome->GenerateTopApplicantsAppliedData()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#9 {main}
+ERROR - 2021-12-24 04:56:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.name as ApplicantName
+      from jobseeker_jobdetails
+      join job_seeker on ' at line 4
+CRITICAL - 2021-12-24 04:56:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.name as ApplicantName
+      from jobseeker_jobdetails
+      join job_seeker on ' at line 4
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT Applican...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Applican...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Applican...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/AdminHome.php(109): CodeIgniter\Database\BaseConnection->query('SELECT Applican...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\AdminHome->GenerateTopApplicantsAppliedData()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#9 {main}
+ERROR - 2021-12-24 04:56:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.name as ApplicantName
+      from jobseeker_jobdetails
+      join job_seeker on ' at line 4
+CRITICAL - 2021-12-24 04:56:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.name as ApplicantName
+      from jobseeker_jobdetails
+      join job_seeker on ' at line 4
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT Applican...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Applican...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Applican...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/AdminHome.php(110): CodeIgniter\Database\BaseConnection->query('SELECT Applican...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\AdminHome->GenerateTopApplicantsAppliedData()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminHome))
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#9 {main}
+CRITICAL - 2021-12-24 05:29:44 --> Undefined array key "selected_val"
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyJobsEmployer.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/X...', 302)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyJobsEmployer->GenerateMostAppliedJobAdvertReport()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyJobsEmployer))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-24 05:29:52 --> Undefined array key "selected_val"
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyJobsEmployer.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/X...', 302)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyJobsEmployer->GenerateMostAppliedJobAdvertReport()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyJobsEmployer))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-24 05:49:32 --> Undefined array key "selected_val"
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyJobsEmployer.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/X...', 302)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyJobsEmployer->GenerateMostAppliedJobAdvertReport()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyJobsEmployer))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-24 05:49:36 --> Undefined array key "selected_val"
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyJobsEmployer.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/X...', 302)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyJobsEmployer->GenerateMostAppliedJobAdvertReport()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyJobsEmployer))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-24 06:26:07 --> Undefined array key "selected_val"
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyJobsEmployer.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/X...', 302)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyJobsEmployer->GenerateMostAppliedJobAdvertReport()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyJobsEmployer))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-24 06:26:11 --> Undefined array key "selected_val"
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyJobsEmployer.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/X...', 302)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyJobsEmployer->GenerateMostAppliedJobAdvertReport()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyJobsEmployer))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-24 06:26:16 --> Undefined array key "selected_val"
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyJobsEmployer.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/X...', 302)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyJobsEmployer->GenerateMostAppliedJobAdvertReport()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyJobsEmployer))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-24 06:26:18 --> Undefined array key "selected_val"
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyJobsEmployer.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/X...', 302)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyJobsEmployer->GenerateMostAppliedJobAdvertReport()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyJobsEmployer))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-24 06:26:36 --> Undefined array key "selected_val"
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyJobsEmployer.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/X...', 302)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyJobsEmployer->GenerateMostAppliedJobAdvertReport()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyJobsEmployer))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-24 06:59:48 --> Invalid file: /ManageAdmin/index.php
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/ManageAdmin/in...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Common.php(1271): CodeIgniter\View\View->render('/ManageAdmin/in...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ManageAdmin.php(50): view('/ManageAdmin/in...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ManageAdmin->CreateAdministrator()
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAdmin))
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2021-12-24 07:00:35 --> Invalid file: /ManageAdmin/index.php
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/ManageAdmin/in...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Common.php(1271): CodeIgniter\View\View->render('/ManageAdmin/in...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ManageAdmin.php(50): view('/ManageAdmin/in...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ManageAdmin->CreateAdministrator()
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAdmin))
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2021-12-24 07:02:41 --> Invalid file: /ManageAdmin/index.php
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/ManageAdmin/in...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Common.php(1271): CodeIgniter\View\View->render('/ManageAdmin/in...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ManageAdmin.php(50): view('/ManageAdmin/in...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ManageAdmin->CreateAdministrator()
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAdmin))
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2021-12-24 07:03:48 --> Invalid file: /ManageAdmin/index/.php
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/ManageAdmin/in...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Common.php(1271): CodeIgniter\View\View->render('/ManageAdmin/in...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ManageAdmin.php(50): view('/ManageAdmin/in...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ManageAdmin->CreateAdministrator()
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAdmin))
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2021-12-24 07:03:49 --> Invalid file: /ManageAdmin/index/.php
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/ManageAdmin/in...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Common.php(1271): CodeIgniter\View\View->render('/ManageAdmin/in...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ManageAdmin.php(50): view('/ManageAdmin/in...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ManageAdmin->CreateAdministrator()
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAdmin))
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2021-12-24 07:03:52 --> Invalid file: /ManageAdmin/index.php
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/ManageAdmin/in...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Common.php(1271): CodeIgniter\View\View->render('/ManageAdmin/in...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ManageAdmin.php(50): view('/ManageAdmin/in...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ManageAdmin->CreateAdministrator()
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAdmin))
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2021-12-24 07:03:53 --> Invalid file: /ManageAdmin/index.php
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/ManageAdmin/in...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Common.php(1271): CodeIgniter\View\View->render('/ManageAdmin/in...', Array, true)
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ManageAdmin.php(50): view('/ManageAdmin/in...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ManageAdmin->CreateAdministrator()
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageAdmin))
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2021-12-24 19:22:14 --> Undefined array key "selected_val"
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyJobsEmployer.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/X...', 302)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyJobsEmployer->GenerateMostAppliedJobAdvertReport()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyJobsEmployer))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-24 19:52:18 --> Undefined array key "selected_val"
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyJobsEmployer.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/X...', 302)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyJobsEmployer->GenerateMostAppliedJobAdvertReport()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyJobsEmployer))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-24 19:52:23 --> Undefined array key "selected_val"
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyJobsEmployer.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/X...', 302)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyJobsEmployer->GenerateMostAppliedJobAdvertReport()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyJobsEmployer))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-24 19:52:31 --> Undefined array key "selected_val"
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyJobsEmployer.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/X...', 302)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyJobsEmployer->GenerateMostAppliedJobAdvertReport()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyJobsEmployer))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-24 19:52:41 --> Undefined array key "selected_val"
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyJobsEmployer.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/X...', 302)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyJobsEmployer->GenerateMostAppliedJobAdvertReport()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyJobsEmployer))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-24 19:54:37 --> Undefined array key "selected_val"
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyJobsEmployer.php(302): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/X...', 302)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyJobsEmployer->GenerateMostAppliedJobAdvertReport()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyJobsEmployer))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}

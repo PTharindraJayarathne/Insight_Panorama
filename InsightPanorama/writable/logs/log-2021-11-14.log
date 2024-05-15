@@ -1,0 +1,6 @@
+CRITICAL - 2021-11-14 00:37:44 --> Cannot use object of type App\Models\employerModel as array
+#0 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\EmployerHome->index()
+#1 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerHome))
+#2 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

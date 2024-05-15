@@ -1,0 +1,611 @@
+CRITICAL - 2021-12-08 03:10:55 --> Too few arguments to function App\Controllers\ApplicantHome::index(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php on line 928 and exactly 1 expected
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#5 {main}
+ERROR - 2021-12-08 03:33:41 --> Unknown column 'job_title' in 'where clause'
+CRITICAL - 2021-12-08 03:33:41 --> Unknown column 'job_title' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('Select * from j...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('Select * from j...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('Select * from j...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('Select * from j...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(65): CodeIgniter\Model->__call('query', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(33): App\Controllers\ApplicantHome->viewAdvertisements('none')
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#12 {main}
+ERROR - 2021-12-08 03:33:50 --> Unknown column 'job_title' in 'where clause'
+CRITICAL - 2021-12-08 03:33:50 --> Unknown column 'job_title' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('Select * from j...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('Select * from j...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('Select * from j...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('Select * from j...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(65): CodeIgniter\Model->__call('query', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(33): App\Controllers\ApplicantHome->viewAdvertisements('none')
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#12 {main}
+ERROR - 2021-12-08 03:34:29 --> Unknown column 'none' in 'where clause'
+CRITICAL - 2021-12-08 03:34:29 --> Unknown column 'none' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('Select * from j...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('Select * from j...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('Select * from j...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('Select * from j...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(65): CodeIgniter\Model->__call('query', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(33): App\Controllers\ApplicantHome->viewAdvertisements('none')
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#12 {main}
+ERROR - 2021-12-08 03:34:30 --> Unknown column 'none' in 'where clause'
+CRITICAL - 2021-12-08 03:34:30 --> Unknown column 'none' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('Select * from j...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('Select * from j...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('Select * from j...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('Select * from j...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(65): CodeIgniter\Model->__call('query', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(33): App\Controllers\ApplicantHome->viewAdvertisements('none')
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#12 {main}
+ERROR - 2021-12-08 03:35:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2021-12-08 03:35:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('Select * from j...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('Select * from j...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('Select * from j...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('Select * from j...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(65): CodeIgniter\Model->__call('query', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(33): App\Controllers\ApplicantHome->viewAdvertisements('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#12 {main}
+ERROR - 2021-12-08 03:35:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2021-12-08 03:35:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('Select * from j...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('Select * from j...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('Select * from j...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('Select * from j...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(65): CodeIgniter\Model->__call('query', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(33): App\Controllers\ApplicantHome->viewAdvertisements('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#12 {main}
+ERROR - 2021-12-08 03:35:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2021-12-08 03:35:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('Select * from j...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('Select * from j...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('Select * from j...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('Select * from j...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(65): CodeIgniter\Model->__call('query', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(33): App\Controllers\ApplicantHome->viewAdvertisements('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#12 {main}
+ERROR - 2021-12-08 03:35:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2021-12-08 03:35:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('Select * from j...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('Select * from j...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('Select * from j...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('Select * from j...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(65): CodeIgniter\Model->__call('query', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(33): App\Controllers\ApplicantHome->viewAdvertisements('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#12 {main}
+ERROR - 2021-12-08 03:35:24 --> Unknown column 'software' in 'where clause'
+CRITICAL - 2021-12-08 03:35:24 --> Unknown column 'software' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('Select * from j...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('Select * from j...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('Select * from j...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('Select * from j...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(65): CodeIgniter\Model->__call('query', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(33): App\Controllers\ApplicantHome->viewAdvertisements('software')
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#12 {main}
+ERROR - 2021-12-08 03:35:25 --> Unknown column 'software' in 'where clause'
+CRITICAL - 2021-12-08 03:35:25 --> Unknown column 'software' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('Select * from j...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('Select * from j...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('Select * from j...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('Select * from j...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(65): CodeIgniter\Model->__call('query', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(33): App\Controllers\ApplicantHome->viewAdvertisements('software')
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#12 {main}
+CRITICAL - 2021-12-08 08:53:40 --> Unsupported operand types: string + string
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(65): App\Controllers\ApplicantHome->GetSearchQuery('jobtitle', '', 'no')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(33): App\Controllers\ApplicantHome->viewAdvertisements('')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#7 {main}
+CRITICAL - 2021-12-08 08:55:37 --> Unsupported operand types: string + string
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(65): App\Controllers\ApplicantHome->GetSearchQuery('jobtitle', '', 'no')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(33): App\Controllers\ApplicantHome->viewAdvertisements('')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#7 {main}
+CRITICAL - 2021-12-08 08:56:11 --> Undefined variable $tocheck
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/X...', 140)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(65): App\Controllers\ApplicantHome->GetSearchQuery('jobtitle', '', 'no')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(33): App\Controllers\ApplicantHome->viewAdvertisements('')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#8 {main}
+CRITICAL - 2021-12-08 08:57:02 --> Unsupported operand types: string + string
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(65): App\Controllers\ApplicantHome->GetSearchQuery('jobtitle', '', 'no')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(33): App\Controllers\ApplicantHome->viewAdvertisements('')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#7 {main}
+CRITICAL - 2021-12-08 08:58:08 --> Unsupported operand types: string + string
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(33): App\Controllers\ApplicantHome->viewAdvertisements('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+ERROR - 2021-12-08 09:02:23 --> Unknown column 'Accounting' in 'where clause'
+CRITICAL - 2021-12-08 09:02:23 --> Unknown column 'Accounting' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('Select * from j...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('Select * from j...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('Select * from j...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('Select * from j...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(65): CodeIgniter\Model->__call('query', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(33): App\Controllers\ApplicantHome->viewAdvertisements('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#12 {main}
+ERROR - 2021-12-08 09:04:45 --> Unknown column 'Accounting' in 'where clause'
+CRITICAL - 2021-12-08 09:04:45 --> Unknown column 'Accounting' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('Select * from j...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('Select * from j...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('Select * from j...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('Select * from j...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(65): CodeIgniter\Model->__call('query', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(33): App\Controllers\ApplicantHome->viewAdvertisements('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#12 {main}
+ERROR - 2021-12-08 09:06:34 --> Unknown column 'Accounting' in 'where clause'
+CRITICAL - 2021-12-08 09:06:34 --> Unknown column 'Accounting' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('Select * from j...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('Select * from j...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('Select * from j...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('Select * from j...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(65): CodeIgniter\Model->__call('query', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(33): App\Controllers\ApplicantHome->viewAdvertisements('')
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#12 {main}
+CRITICAL - 2021-12-08 19:48:46 --> Undefined property: App\Controllers\ApplicantHome::$db
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 44)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-08 19:50:16 --> Undefined property: App\Controllers\ApplicantHome::$db
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 44)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-08 20:08:03 --> Undefined property: App\Controllers\ApplicantHome::$load
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 43)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-08 20:10:33 --> Undefined property: App\Controllers\ApplicantHome::$db
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 43)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-08 20:15:53 --> Cannot use object of type stdClass as array
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#5 {main}
+CRITICAL - 2021-12-08 21:35:36 --> readfile(adverts/1638681166_37bf46db8a7be2c7c74c.pdf): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(advert...', '/Applications/X...', 147)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(147): readfile('adverts/1638681...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->downloadPdf('1638681166_37bf...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#7 {main}
+CRITICAL - 2021-12-08 21:35:36 --> Uncaught ErrorException: Cannot modify header information - headers already sent in /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Debug/Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/Applications/X...', 137)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Debug/Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-08 21:48:09 --> Undefined property: App\Controllers\ApplicantHome::$GetSearchQuery
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 77)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(43): App\Controllers\ApplicantHome->viewAdvertisements('')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#7 {main}
+ERROR - 2021-12-08 21:49:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`  and JobTitle like '%Accounting%'' at line 23
+CRITICAL - 2021-12-08 21:49:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`  and JobTitle like '%Accounting%'' at line 23
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT\n        ...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(77): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(45): App\Controllers\ApplicantHome->viewAdvertisements(' and JobTitle l...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+ERROR - 2021-12-08 21:49:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`  and JobTitle like '%Accounting%'' at line 23
+CRITICAL - 2021-12-08 21:49:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`  and JobTitle like '%Accounting%'' at line 23
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT\n        ...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(77): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(45): App\Controllers\ApplicantHome->viewAdvertisements(' and JobTitle l...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+ERROR - 2021-12-08 21:52:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%Accounting%' at line 23
+CRITICAL - 2021-12-08 21:52:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%Accounting%' at line 23
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT\n        ...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(77): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(45): App\Controllers\ApplicantHome->viewAdvertisements(' and JobTitle l...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+ERROR - 2021-12-08 21:54:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and JobTitle like '%Accounting%' &' at line 23
+CRITICAL - 2021-12-08 21:54:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and JobTitle like '%Accounting%' &' at line 23
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT\n        ...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(77): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(45): App\Controllers\ApplicantHome->viewAdvertisements(' and JobTitle l...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+CRITICAL - 2021-12-08 22:08:52 --> Unsupported operand types: string + string
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#5 {main}
+ERROR - 2021-12-08 22:09:12 --> Unknown column 'JobLocation' in 'where clause'
+CRITICAL - 2021-12-08 22:09:12 --> Unknown column 'JobLocation' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT\n        ...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(84): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(52): App\Controllers\ApplicantHome->viewAdvertisements(' and JobCategor...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+ERROR - 2021-12-08 22:09:13 --> Unknown column 'JobLocation' in 'where clause'
+CRITICAL - 2021-12-08 22:09:13 --> Unknown column 'JobLocation' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT\n        ...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(84): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(52): App\Controllers\ApplicantHome->viewAdvertisements(' and JobCategor...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+ERROR - 2021-12-08 22:09:47 --> Unknown column 'JobExp' in 'where clause'
+CRITICAL - 2021-12-08 22:09:47 --> Unknown column 'JobExp' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT\n        ...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(84): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(52): App\Controllers\ApplicantHome->viewAdvertisements(' and JobCategor...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+ERROR - 2021-12-08 22:14:23 --> Unknown column 'JobLocation' in 'where clause'
+CRITICAL - 2021-12-08 22:14:23 --> Unknown column 'JobLocation' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT\n        ...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(90): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(58): App\Controllers\ApplicantHome->viewAdvertisements(' and JobCategor...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+ERROR - 2021-12-08 22:46:16 --> Unknown column 'minsalary' in 'where clause'
+CRITICAL - 2021-12-08 22:46:16 --> Unknown column 'minsalary' in 'where clause'
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT\n        ...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(94): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(61): App\Controllers\ApplicantHome->viewAdvertisements(' and minsalary ...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+ERROR - 2021-12-08 22:58:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'jb.salary < 150000' at line 23
+CRITICAL - 2021-12-08 22:58:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'jb.salary < 150000' at line 23
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT\n        ...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(93): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(61): App\Controllers\ApplicantHome->viewAdvertisements('and jb.salary >...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+ERROR - 2021-12-08 22:58:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'jb.salary < 150000' at line 23
+CRITICAL - 2021-12-08 22:58:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'jb.salary < 150000' at line 23
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT\n        ...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(93): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(61): App\Controllers\ApplicantHome->viewAdvertisements('and jb.salary >...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+ERROR - 2021-12-08 22:58:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'jb.salary < 150000' at line 23
+CRITICAL - 2021-12-08 22:58:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'jb.salary < 150000' at line 23
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT\n        ...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(94): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(62): App\Controllers\ApplicantHome->viewAdvertisements('and jb.salary >...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+ERROR - 2021-12-08 23:04:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and jb.salary <= 150000' at line 23
+CRITICAL - 2021-12-08 23:04:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and jb.salary <= 150000' at line 23
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT\n        ...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(88): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(56): App\Controllers\ApplicantHome->viewAdvertisements(' and jb.salary ...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+ERROR - 2021-12-08 23:04:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and jb.salary <= 150000' at line 23
+CRITICAL - 2021-12-08 23:04:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and jb.salary <= 150000' at line 23
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT\n        ...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(88): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(56): App\Controllers\ApplicantHome->viewAdvertisements(' and jb.salary ...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+ERROR - 2021-12-08 23:04:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and jb.salary <= 150000' at line 23
+CRITICAL - 2021-12-08 23:04:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and jb.salary <= 150000' at line 23
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT\n        ...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(88): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(56): App\Controllers\ApplicantHome->viewAdvertisements(' and jb.salary ...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+ERROR - 2021-12-08 23:04:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and jb.salary <= 150000' at line 23
+CRITICAL - 2021-12-08 23:04:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and jb.salary <= 150000' at line 23
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT\n        ...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(88): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(56): App\Controllers\ApplicantHome->viewAdvertisements(' and jb.salary ...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+ERROR - 2021-12-08 23:04:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and jb.salary <= 150000' at line 23
+CRITICAL - 2021-12-08 23:04:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and jb.salary <= 150000' at line 23
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT\n        ...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(88): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(56): App\Controllers\ApplicantHome->viewAdvertisements(' and jb.salary ...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+ERROR - 2021-12-08 23:05:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and jb.salary <= 150000' at line 23
+CRITICAL - 2021-12-08 23:05:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and jb.salary <= 150000' at line 23
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT\n        ...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(88): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(56): App\Controllers\ApplicantHome->viewAdvertisements(' and jb.salary ...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+ERROR - 2021-12-08 23:05:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and jb.salary <= 150000' at line 23
+CRITICAL - 2021-12-08 23:05:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and jb.salary <= 150000' at line 23
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT\n        ...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(88): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(56): App\Controllers\ApplicantHome->viewAdvertisements(' and jb.salary ...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+ERROR - 2021-12-08 23:06:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and jb.salary <= 150000' at line 23
+CRITICAL - 2021-12-08 23:06:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and jb.salary <= 150000' at line 23
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT\n        ...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(88): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(56): App\Controllers\ApplicantHome->viewAdvertisements(' and jb.salary ...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+ERROR - 2021-12-08 23:06:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and jb.salary <= 150000' at line 23
+CRITICAL - 2021-12-08 23:06:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and jb.salary <= 150000' at line 23
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('SELECT\n        ...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\n        ...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\n        ...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(88): CodeIgniter\Database\BaseConnection->query('SELECT\n        ...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(56): App\Controllers\ApplicantHome->viewAdvertisements(' and jb.salary ...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+CRITICAL - 2021-12-08 23:16:29 --> readfile(adverts/1638673322_18bb76dac75ca75e0ce1.pdf): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(advert...', '/Applications/X...', 150)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(150): readfile('adverts/1638673...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->downloadPdf('1638673322_18bb...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#7 {main}
+CRITICAL - 2021-12-08 23:16:29 --> Uncaught ErrorException: Cannot modify header information - headers already sent in /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Debug/Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/Applications/X...', 137)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Debug/Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

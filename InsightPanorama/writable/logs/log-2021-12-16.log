@@ -1,0 +1,98 @@
+CRITICAL - 2021-12-16 00:57:34 --> Call to a member function getNumRows() on int
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyJobsEmployer->scheduleInterview()
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyJobsEmployer))
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#5 {main}
+CRITICAL - 2021-12-16 00:59:36 --> Call to a member function getNumRows() on int
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyJobsEmployer->scheduleInterview()
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyJobsEmployer))
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#5 {main}
+CRITICAL - 2021-12-16 04:33:11 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(230): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Common.php(1271): CodeIgniter\View\View->render('ApplicantMyInbo...', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyInbox.php(27): view('ApplicantMyInbo...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyInbox->index()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyInbox))
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#9 {main}
+CRITICAL - 2021-12-16 04:34:01 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(230): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Common.php(1271): CodeIgniter\View\View->render('ApplicantMyInbo...', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyInbox.php(27): view('ApplicantMyInbo...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyInbox->index()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyInbox))
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#9 {main}
+CRITICAL - 2021-12-16 04:34:12 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(230): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Common.php(1271): CodeIgniter\View\View->render('ApplicantMyInbo...', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyInbox.php(27): view('ApplicantMyInbo...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyInbox->index()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyInbox))
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#9 {main}
+CRITICAL - 2021-12-16 04:34:47 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(230): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Common.php(1271): CodeIgniter\View\View->render('ApplicantMyInbo...', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyInbox.php(27): view('ApplicantMyInbo...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyInbox->index()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyInbox))
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#9 {main}
+CRITICAL - 2021-12-16 04:34:59 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(230): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Common.php(1271): CodeIgniter\View\View->render('ApplicantMyInbo...', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyInbox.php(27): view('ApplicantMyInbo...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyInbox->index()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyInbox))
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#9 {main}
+CRITICAL - 2021-12-16 04:38:43 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(230): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Common.php(1271): CodeIgniter\View\View->render('ApplicantMyInbo...', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyInbox.php(27): view('ApplicantMyInbo...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyInbox->index()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyInbox))
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#9 {main}
+CRITICAL - 2021-12-16 07:39:15 --> readfile(cvfiles/1639638616_3723966e4814b9e11f47): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(cvfile...', '/Applications/X...', 45)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyJobsEmployer.php(45): readfile('cvfiles/1639638...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyJobsEmployer->downloadPdf('1639638616_3723...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyJobsEmployer))
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#7 {main}
+CRITICAL - 2021-12-16 07:39:15 --> Uncaught ErrorException: Cannot modify header information - headers already sent in /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Debug/Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/Applications/X...', 137)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Debug/Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

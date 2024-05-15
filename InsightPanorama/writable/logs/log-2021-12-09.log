@@ -1,0 +1,7 @@
+CRITICAL - 2021-12-09 03:35:09 --> Too few arguments to function App\Controllers\ApplyForJob::index(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php on line 928 and exactly 1 expected
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplyForJob->index()
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplyForJob))
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#5 {main}

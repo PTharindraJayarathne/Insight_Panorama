@@ -1,0 +1,32 @@
+CRITICAL - 2021-12-22 02:34:09 --> Undefined variable $companyid
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/EmployerHome.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/X...', 31)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\EmployerHome->index()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-22 02:36:37 --> Undefined variable $companyid
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/EmployerHome.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/X...', 31)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\EmployerHome->index()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-22 02:41:07 --> Undefined variable $companyid
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/EmployerHome.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/X...', 31)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\EmployerHome->index()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-22 02:43:23 --> Undefined variable $companyid
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/EmployerHome.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/X...', 31)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\EmployerHome->index()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployerHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}

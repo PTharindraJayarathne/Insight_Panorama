@@ -1,0 +1,22 @@
+CRITICAL - 2021-11-26 07:39:20 --> Undefined property: stdClass::$copany_id
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\AdminJobPostings\index.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 144)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('AdminJobPosting...', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminJobPostings.php(12): view('AdminJobPosting...')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminJobPostings->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminJobPostings))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-26 09:04:08 --> Undefined variable $JobAdvert
+#0 C:\xampp\htdocs\futureseekerslk\app\Views\ApplicantHome\index.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\futureseekerslk\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\futureseekerslk\system\Common.php(1271): CodeIgniter\View\View->render('ApplicantHome/i...', Array, true)
+#4 C:\xampp\htdocs\futureseekerslk\app\Controllers\ApplicantHome.php(26): view('ApplicantHome/i...')
+#5 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

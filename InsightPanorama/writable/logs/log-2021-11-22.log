@@ -1,0 +1,40 @@
+CRITICAL - 2021-11-22 00:14:26 --> Undefined variable $totalTime
+#0 C:\xampp\htdocs\futureseekerslk\system\Debug\Toolbar\Views\toolbar.tpl.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41)
+#1 C:\xampp\htdocs\futureseekerslk\system\Debug\Toolbar.php(495): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\Debug\Toolbar.php(452): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\futureseekerslk\app\Config\Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\futureseekerslk\system\Events\Events.php(166): call_user_func(Object(Closure))
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(316): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-22 00:14:26 --> Undefined variable $totalTime
+#0 C:\xampp\htdocs\futureseekerslk\system\Debug\Toolbar\Views\toolbar.tpl.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41)
+#1 C:\xampp\htdocs\futureseekerslk\system\Debug\Toolbar.php(495): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\Debug\Toolbar.php(452): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\futureseekerslk\app\Config\Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\futureseekerslk\system\Events\Events.php(166): call_user_func(Object(Closure))
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(316): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-22 09:23:59 --> Undefined variable $totalTime
+#0 C:\xampp\htdocs\futureseekerslk\system\Debug\Toolbar\Views\toolbar.tpl.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41)
+#1 C:\xampp\htdocs\futureseekerslk\system\Debug\Toolbar.php(495): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\Debug\Toolbar.php(452): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\futureseekerslk\app\Config\Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\futureseekerslk\system\Events\Events.php(166): call_user_func(Object(Closure))
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(316): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-22 09:23:59 --> Undefined variable $totalTime
+#0 C:\xampp\htdocs\futureseekerslk\system\Debug\Toolbar\Views\toolbar.tpl.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41)
+#1 C:\xampp\htdocs\futureseekerslk\system\Debug\Toolbar.php(495): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\futureseekerslk\system\Debug\Toolbar.php(452): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\futureseekerslk\app\Config\Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\futureseekerslk\system\Events\Events.php(166): call_user_func(Object(Closure))
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(316): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

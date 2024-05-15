@@ -1,0 +1,46 @@
+CRITICAL - 2021-12-07 22:54:21 --> readfile(adverts/1638681166_37bf46db8a7be2c7c74c.pdf): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(advert...', '/Applications/X...', 114)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(114): readfile('adverts/1638681...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->downloadPdf('1638681166_37bf...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#7 {main}
+CRITICAL - 2021-12-07 22:54:21 --> Uncaught ErrorException: Cannot modify header information - headers already sent in /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Debug/Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/Applications/X...', 137)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Debug/Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-07 22:56:31 --> readfile(adverts/1638681166_37bf46db8a7be2c7c74c.pdf): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(advert...', '/Applications/X...', 114)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(114): readfile('adverts/1638681...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->downloadPdf('1638681166_37bf...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#7 {main}
+CRITICAL - 2021-12-07 22:56:31 --> Uncaught ErrorException: Cannot modify header information - headers already sent in /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Debug/Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/Applications/X...', 137)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Debug/Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-07 23:11:53 -->  route cannot be found while reverse-routing.
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/HTTP/RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Common.php(972): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(30): redirect('ApplicantHome/i...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#8 {main}

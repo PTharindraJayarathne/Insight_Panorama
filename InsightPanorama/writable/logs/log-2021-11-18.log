@@ -1,0 +1,13 @@
+ERROR - 2021-11-18 03:09:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2021-11-18 03:09:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\futureseekerslk\system\Database\MySQLi\Connection.php(329): mysqli->query('update user_acc...')
+#1 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('update user_acc...')
+#2 C:\xampp\htdocs\futureseekerslk\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('update user_acc...')
+#3 C:\xampp\htdocs\futureseekerslk\system\BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('update user_acc...')
+#4 C:\xampp\htdocs\futureseekerslk\system\Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 C:\xampp\htdocs\futureseekerslk\app\Controllers\AdminEmployerProfiles.php(24): CodeIgniter\Model->__call('query', Array)
+#6 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(928): App\Controllers\AdminEmployerProfiles->verify()
+#7 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminEmployerProfiles))
+#8 C:\xampp\htdocs\futureseekerslk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\futureseekerslk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

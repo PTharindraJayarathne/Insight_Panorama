@@ -1,0 +1,79 @@
+CRITICAL - 2021-11-08 21:46:04 --> Cannot use object of type App\Models\userAccountModel as array
+#0 C:\xampp\htdocs\futureseekers.lk\system\CodeIgniter.php(928): App\Controllers\Home->loginSuccess()
+#1 C:\xampp\htdocs\futureseekers.lk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\futureseekers.lk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\futureseekers.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-08 21:47:12 --> Cannot use object of type App\Models\userAccountModel as array
+#0 C:\xampp\htdocs\futureseekers.lk\system\CodeIgniter.php(928): App\Controllers\Home->loginSuccess()
+#1 C:\xampp\htdocs\futureseekers.lk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\futureseekers.lk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\futureseekers.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-08 21:49:02 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\futureseekers.lk\system\Model.php on line 800
+#0 C:\xampp\htdocs\futureseekers.lk\system\Model.php(800): CodeIgniter\Database\BaseBuilder->get('type')
+#1 C:\xampp\htdocs\futureseekers.lk\app\Controllers\Home.php(34): CodeIgniter\Model->__call('get', Array)
+#2 C:\xampp\htdocs\futureseekers.lk\system\CodeIgniter.php(928): App\Controllers\Home->loginSuccess()
+#3 C:\xampp\htdocs\futureseekers.lk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\futureseekers.lk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\futureseekers.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-08 21:59:36 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\futureseekers.lk\app\Controllers\Home.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\futureseekers.lk\system\CodeIgniter.php(928): App\Controllers\Home->loginSuccess()
+#2 C:\xampp\htdocs\futureseekers.lk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\futureseekers.lk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\futureseekers.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-08 22:10:22 --> Invalid file: /Login/index.php
+#0 C:\xampp\htdocs\futureseekers.lk\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Login/index.ph...')
+#1 C:\xampp\htdocs\futureseekers.lk\system\Common.php(1271): CodeIgniter\View\View->render('/Login/index', Array, true)
+#2 C:\xampp\htdocs\futureseekers.lk\app\Controllers\Home.php(35): view('/Login/index', Array)
+#3 C:\xampp\htdocs\futureseekers.lk\system\CodeIgniter.php(928): App\Controllers\Home->login()
+#4 C:\xampp\htdocs\futureseekers.lk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\futureseekers.lk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\futureseekers.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-08 22:27:02 --> Invalid file: /Login/index.php
+#0 C:\xampp\htdocs\futureseekers.lk\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Login/index.ph...')
+#1 C:\xampp\htdocs\futureseekers.lk\system\Common.php(1271): CodeIgniter\View\View->render('/Login/index', Array, true)
+#2 C:\xampp\htdocs\futureseekers.lk\app\Controllers\Home.php(35): view('/Login/index', Array)
+#3 C:\xampp\htdocs\futureseekers.lk\system\CodeIgniter.php(928): App\Controllers\Home->login()
+#4 C:\xampp\htdocs\futureseekers.lk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\futureseekers.lk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\futureseekers.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-08 22:28:15 --> Invalid file: /Login/index.php
+#0 C:\xampp\htdocs\futureseekers.lk\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Login/index.ph...')
+#1 C:\xampp\htdocs\futureseekers.lk\system\Common.php(1271): CodeIgniter\View\View->render('/Login/index', Array, true)
+#2 C:\xampp\htdocs\futureseekers.lk\app\Controllers\Home.php(35): view('/Login/index', Array)
+#3 C:\xampp\htdocs\futureseekers.lk\system\CodeIgniter.php(928): App\Controllers\Home->login()
+#4 C:\xampp\htdocs\futureseekers.lk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\futureseekers.lk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\futureseekers.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-08 22:29:43 --> Invalid file: /Login/index.php
+#0 C:\xampp\htdocs\futureseekers.lk\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Login/index.ph...')
+#1 C:\xampp\htdocs\futureseekers.lk\system\Common.php(1271): CodeIgniter\View\View->render('/Login/index', Array, true)
+#2 C:\xampp\htdocs\futureseekers.lk\app\Controllers\Home.php(35): view('/Login/index', Array)
+#3 C:\xampp\htdocs\futureseekers.lk\system\CodeIgniter.php(928): App\Controllers\Home->login()
+#4 C:\xampp\htdocs\futureseekers.lk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\futureseekers.lk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\futureseekers.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-08 22:35:49 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\futureseekers.lk\app\Controllers\Home.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\futureseekers.lk\system\CodeIgniter.php(928): App\Controllers\Home->loginSuccess()
+#2 C:\xampp\htdocs\futureseekers.lk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\futureseekers.lk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\futureseekers.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-08 22:49:10 --> Invalid file: /MyProfileEmployer.php
+#0 C:\xampp\htdocs\futureseekers.lk\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/MyProfileEmplo...')
+#1 C:\xampp\htdocs\futureseekers.lk\system\Common.php(1271): CodeIgniter\View\View->render('/MyProfileEmplo...', Array, true)
+#2 C:\xampp\htdocs\futureseekers.lk\app\Controllers\Home.php(76): view('/MyProfileEmplo...')
+#3 C:\xampp\htdocs\futureseekers.lk\system\CodeIgniter.php(928): App\Controllers\Home->loginSuccess()
+#4 C:\xampp\htdocs\futureseekers.lk\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\futureseekers.lk\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\futureseekers.lk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

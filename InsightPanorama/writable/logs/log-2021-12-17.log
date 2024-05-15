@@ -1,0 +1,392 @@
+CRITICAL - 2021-12-17 04:13:44 --> Undefined variable $search_res
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyInbox.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/X...', 59)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyInbox.php(27): App\Controllers\MyInbox->ViewJobAdverts('43')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyInbox->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyInbox))
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#7 {main}
+CRITICAL - 2021-12-17 04:42:25 --> Undefined variable $is_shortlisted
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Views/ApplicantMyInbox/index.php(245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/X...', 245)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(230): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Common.php(1271): CodeIgniter\View\View->render('ApplicantMyInbo...', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyInbox.php(29): view('ApplicantMyInbo...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyInbox->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyInbox))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+CRITICAL - 2021-12-17 05:29:43 --> Unsupported operand types: string + string
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyInbox.php(84): App\Controllers\MyInbox->GenerateInvitation(Object(stdClass))
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyInbox.php(27): App\Controllers\MyInbox->ViewJobAdverts('43')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyInbox->index()
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyInbox))
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#7 {main}
+CRITICAL - 2021-12-17 05:56:19 --> Undefined variable $invitation
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Views/ApplicantMyInbox/index.php(315): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/X...', 315)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(230): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Common.php(1271): CodeIgniter\View\View->render('ApplicantMyInbo...', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyInbox.php(29): view('ApplicantMyInbo...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyInbox->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyInbox))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+CRITICAL - 2021-12-17 05:56:21 --> Undefined variable $invitation
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Views/ApplicantMyInbox/index.php(315): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Applications/X...', 315)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(230): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Common.php(1271): CodeIgniter\View\View->render('ApplicantMyInbo...', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyInbox.php(29): view('ApplicantMyInbo...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyInbox->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyInbox))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+CRITICAL - 2021-12-17 06:11:00 --> Array to string conversion
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Views/ApplicantMyInbox/index.php(242): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/Applications/X...', 242)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(230): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Common.php(1271): CodeIgniter\View\View->render('ApplicantMyInbo...', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyInbox.php(29): view('ApplicantMyInbo...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyInbox->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyInbox))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+CRITICAL - 2021-12-17 06:11:15 --> Array to string conversion
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Views/ApplicantMyInbox/index.php(242): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/Applications/X...', 242)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(230): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Common.php(1271): CodeIgniter\View\View->render('ApplicantMyInbo...', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyInbox.php(29): view('ApplicantMyInbo...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyInbox->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyInbox))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+CRITICAL - 2021-12-17 06:11:34 --> Array to string conversion
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Views/ApplicantMyInbox/index.php(242): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/Applications/X...', 242)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(230): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Common.php(1271): CodeIgniter\View\View->render('ApplicantMyInbo...', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyInbox.php(29): view('ApplicantMyInbo...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyInbox->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyInbox))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+CRITICAL - 2021-12-17 06:11:35 --> Array to string conversion
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Views/ApplicantMyInbox/index.php(242): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/Applications/X...', 242)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(230): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Common.php(1271): CodeIgniter\View\View->render('ApplicantMyInbo...', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/MyInbox.php(29): view('ApplicantMyInbo...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\MyInbox->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MyInbox))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+CRITICAL - 2021-12-17 19:45:19 --> Array to string conversion
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Views/ApplicantHome/index.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/Applications/X...', 266)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(230): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Common.php(1271): CodeIgniter\View\View->render('ApplicantHome/i...', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(56): view('ApplicantHome/i...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+CRITICAL - 2021-12-17 19:45:51 --> Array to string conversion
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Views/ApplicantHome/index.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/Applications/X...', 266)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(230): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Common.php(1271): CodeIgniter\View\View->render('ApplicantHome/i...', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(56): view('ApplicantHome/i...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+CRITICAL - 2021-12-17 19:45:53 --> Array to string conversion
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Views/ApplicantHome/index.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/Applications/X...', 266)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(230): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Common.php(1271): CodeIgniter\View\View->render('ApplicantHome/i...', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(56): view('ApplicantHome/i...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+CRITICAL - 2021-12-17 19:47:23 --> Array to string conversion
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Views/ApplicantHome/index.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/Applications/X...', 266)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(230): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Common.php(1271): CodeIgniter\View\View->render('ApplicantHome/i...', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(56): view('ApplicantHome/i...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+CRITICAL - 2021-12-17 19:47:23 --> Array to string conversion
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Views/ApplicantHome/index.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/Applications/X...', 266)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(230): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Common.php(1271): CodeIgniter\View\View->render('ApplicantHome/i...', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(56): view('ApplicantHome/i...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->index()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#10 {main}
+CRITICAL - 2021-12-17 20:11:57 --> Undefined array key "jobID"
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/X...', 197)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->ApplyForJob()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-17 20:12:20 --> Undefined array key "jobID"
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/X...', 197)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->ApplyForJob()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-17 21:42:01 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$AdvertID
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(369): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 369)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->ShareJobAdvertisement()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-17 21:42:37 --> Undefined array key "jobID"
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(322): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Applications/X...', 322)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->ShareJobAdvertisement()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-17 21:43:50 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$AdvertID
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(369): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 369)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->ShareJobAdvertisement()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-17 21:47:54 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$AdvertID
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(369): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 369)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->ShareJobAdvertisement()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-17 21:52:16 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$AdvertID
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(369): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 369)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->ShareJobAdvertisement()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-17 21:57:24 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$AdvertID
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(378): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 378)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->ShareJobAdvertisement()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-17 21:57:47 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$AdvertID
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(378): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 378)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->ShareJobAdvertisement()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-17 22:10:08 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$AdvertID
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(378): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 378)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->ShareJobAdvertisement()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-17 22:13:22 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$AdvertID
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(378): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 378)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->ShareJobAdvertisement()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-17 22:15:01 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$AdvertID
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(378): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 378)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->ShareJobAdvertisement()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-17 22:18:30 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$AdvertID
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(378): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 378)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->ShareJobAdvertisement()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-17 22:18:56 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$AdvertID
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(378): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 378)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->ShareJobAdvertisement()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-17 22:20:41 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$id
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(378): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 378)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->ShareJobAdvertisement()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-17 22:22:55 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$AdvertID
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(378): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 378)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->ShareJobAdvertisement()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-17 22:26:00 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$AdvertID
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(383): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 383)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->ShareJobAdvertisement()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-17 22:28:41 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$AdvertID
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(378): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 378)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->ShareJobAdvertisement()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-17 22:30:35 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$AdvertID
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(376): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 376)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->ShareJobAdvertisement()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-17 22:31:51 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$AdvertID
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(376): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 376)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->ShareJobAdvertisement()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-17 22:32:01 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$AdvertID
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(376): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 376)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->ShareJobAdvertisement()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-17 22:32:34 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$AdvertID
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(376): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 376)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->ShareJobAdvertisement()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-17 22:36:43 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$getFirstRow
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(378): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 378)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->ShareJobAdvertisement()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-17 22:40:55 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$row
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(378): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 378)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->ShareJobAdvertisement()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+CRITICAL - 2021-12-17 22:43:48 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$get
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(378): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Applications/X...', 378)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->ShareJobAdvertisement()
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#6 {main}
+ERROR - 2021-12-17 22:47:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 2
+CRITICAL - 2021-12-17 22:47:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 2
+#0 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/MySQLi/Connection.php(329): mysqli->query('INSERT INTO sha...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO sha...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Database/BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO sha...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(381): CodeIgniter\Database\BaseConnection->query('INSERT INTO sha...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->ShareJobAdvertisement()
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#9 {main}
+CRITICAL - 2021-12-17 23:35:22 --> readfile(adverts/1638681608_3ef8fefb50b921604b9b.pdf): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(advert...', '/Applications/X...', 148)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/app/Controllers/ApplicantHome.php(148): readfile('adverts/1638681...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(928): App\Controllers\ApplicantHome->downloadPdf('1638681608_3ef8...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantHome))
+#4 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Commands/Server/rewrite.php(45): require_once('/Applications/X...')
+#7 {main}
+CRITICAL - 2021-12-17 23:35:22 --> Uncaught ErrorException: Cannot modify header information - headers already sent in /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Debug/Exceptions.php:137
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', '/Applications/X...', 137)
+#1 /Applications/XAMPP/xamppfiles/htdocs/futureseekerslk/system/Debug/Exceptions.php(137): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
